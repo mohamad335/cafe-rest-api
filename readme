@@ -1,0 +1,6 @@
+our project is to crearte our own api with RESTful routing
+first we get a collection of data about many cafes and put it on a table by sqlalchemy
+then we create a rout for random by using to_dict() function and jsonify method to make the data like json to look same api data
+then we create post method routing so if we have a new cafe we need to add it to our database
+then we create update_price (PATCH method) as you now prices of coffe changes with time 
+then we create a delete method but because our goal to create own api we give the access only for those we have the our api 
